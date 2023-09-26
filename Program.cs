@@ -14,6 +14,15 @@
 // Longest Common Prefix
 //LongestCommonPrefix.RunSolution();
 
+// Search Insert Position
+//SearchInsertPosition.RunSolution();
+
+// Length Of Last Word
+//LengthOfLastWord.RunSolution();
+
+// Plus One
+//PlusOne.RunSolution();
+
 #endregion
 
 #region Medium
