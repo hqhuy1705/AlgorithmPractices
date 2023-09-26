@@ -1,9 +1,12 @@
-﻿//using AlgorithmPractices.LeetCode;
+﻿using AlgorithmPractices.LeetCode;
 
 #region Easy
 
 // Two Sum
 //TwoSum.RunSolution();
+
+// Palindrome Number
+//PalindromeNumber.RunSolution();
 
 #endregion
 
