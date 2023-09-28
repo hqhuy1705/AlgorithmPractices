@@ -23,6 +23,8 @@
 // Plus One
 //PlusOne.RunSolution();
 
+// Add Binary
+//AddBinary.RunSolution();
 #endregion
 
 #region Medium
