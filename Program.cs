@@ -25,6 +25,9 @@
 
 // Add Binary
 //AddBinary.RunSolution();
+
+// Add Binary
+// MySqrt.RunSolution();
 #endregion
 
 #region Medium
