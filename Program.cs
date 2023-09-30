@@ -28,6 +28,9 @@
 
 // Add Binary
 // MySqrt.RunSolution();
+
+// Climb Stair
+//ClimbStair.RunSolution();
 #endregion
 
 #region Medium
