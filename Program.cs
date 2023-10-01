@@ -31,6 +31,10 @@
 
 // Climb Stair
 //ClimbStair.RunSolution();
+
+// Delete Duplicates
+//DeleteDuplicate.RunSolution();
+
 #endregion
 
 #region Medium
