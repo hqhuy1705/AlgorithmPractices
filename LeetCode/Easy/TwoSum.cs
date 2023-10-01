@@ -66,15 +66,5 @@
             result = Solution(new int[] { 3, 3 }, 6);
             result.Display();
         }
-
-        /// <summary>
-        /// Display result
-        /// </summary>
-        /// <param name="list"></param>
-        public static void Display(this int[] list)
-        {
-            Console.WriteLine(string.Join(", ", list));
-        }
-
     }
 }

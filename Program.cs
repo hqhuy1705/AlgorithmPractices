@@ -35,6 +35,9 @@
 // Delete Duplicates
 //DeleteDuplicate.RunSolution();
 
+// Merge Sorted Array
+//MergeSortedArray.RunSolution();
+
 #endregion
 
 #region Medium

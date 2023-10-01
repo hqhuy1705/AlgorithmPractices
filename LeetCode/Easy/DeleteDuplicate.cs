@@ -85,7 +85,7 @@
             var testCases = GetTestCases();
             foreach (var testcase in testCases)
             {
-                result.Add(ListNodeHelpers.GetNodesFromList(testcase));
+                result.Add(testcase.GetNodesFromList());
             }
 
             return result;

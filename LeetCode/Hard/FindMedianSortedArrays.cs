@@ -53,7 +53,6 @@
             return nums1.Concat(nums2).OrderBy(x => x).ToArray();
         }
 
-
         /// <summary>
         /// RunSolution
         /// </summary>
