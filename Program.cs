@@ -38,6 +38,12 @@
 // Merge Sorted Array
 //MergeSortedArray.RunSolution();
 
+// Num Identical Pair
+//NumIdenticalPair.RunSolution();
+
+//Same Tree
+//SameTree.RunSolution();
+
 #endregion
 
 #region Medium
