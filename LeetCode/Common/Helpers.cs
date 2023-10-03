@@ -27,5 +27,36 @@
             }
             return head.next;
         }
+
+        /// <summary>
+        /// Get Tree Node From List
+        /// </summary>
+        /// <param name="inputs"></param>
+        /// <param name="index"></param>
+        /// <returns></returns>
+        public static TreeNode GetTreeNodeFromList(this List<int?> inputs, int index)
+        {
+            var treeNode = new TreeNode();
+            return inputs.GetTreeNodeFromList(treeNode, index);
+        }
+
+        /// <summary>
+        /// Get Tree Node From List
+        /// </summary>
+        /// <param name="inputs"></param>
+        /// <param name="root"></param>
+        /// <param name="index"></param>
+        /// <returns></returns>
+        public static TreeNode GetTreeNodeFromList(this List<int?> inputs, TreeNode root, int index)
+        {
+            if (index < inputs.Count && inputs[index] != null)
+            {
+                root = new TreeNode(inputs[index] ?? 0);
+                root.left = inputs.GetTreeNodeFromList(root.left, 2 * index + 1);
+                root.right = inputs.GetTreeNodeFromList(root.right, 2 * index + 2);
+            }
+
+            return root;
+        }
     }
 }

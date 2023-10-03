@@ -41,8 +41,11 @@
 // Num Identical Pair
 //NumIdenticalPair.RunSolution();
 
-//Same Tree
+// Same Tree
 //SameTree.RunSolution();
+
+// Symmetric Tree
+SymmetricTree.RunSolution();
 
 #endregion
 
