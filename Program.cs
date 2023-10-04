@@ -45,7 +45,13 @@
 //SameTree.RunSolution();
 
 // Symmetric Tree
-SymmetricTree.RunSolution();
+//SymmetricTree.RunSolution();
+
+// Palindrome String
+//PalindromeString.RunSolution();
+
+// Max Depth
+//MaxDepth.RunSolution();
 
 #endregion
 
