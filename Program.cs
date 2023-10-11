@@ -53,6 +53,11 @@
 // Max Depth
 //MaxDepth.RunSolution();
 
+// Single Number
+//SingleNumber.RunSolution();
+
+// Majority Element
+//MajorityElement.RunSolution();
 #endregion
 
 #region Medium
